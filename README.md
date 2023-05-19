@@ -27,13 +27,6 @@ Add `fijkplayer` as a [dependency in your pubspec.yaml file](https://flutter.io/
 
 [![pub package](https://img.shields.io/pub/v/fijkplayer.svg)](https://pub.dartlang.org/packages/fijkplayer)
 
-```yaml
-dependencies:
-  fijkplayer: ^{{latest version}}
-```
-
-Replace `{{latest version}}` with the version number in badge above.
-
 Use git branch which not published to pub.
 ```yaml
 dependencies:
