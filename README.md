@@ -39,8 +39,8 @@ Use git branch which not published to pub.
 dependencies:
   fijkplayer:
     git:
-      url: https://github.com/befovy/fijkplayer.git
-      ref: develop # can be replaced to branch or tag name
+      url: https://github.com/diegothucao/cfijkplayer.git
+      ref: master
 ```
 
 ## Example 示例
