@@ -226,7 +226,8 @@ class FijkValue {
           hashCode == other.hashCode;
 
   @override
-  int get hashCode => hashValues(
+ // int get hashCode => hashValues(
+  int get hashCode => Object.hash(
         prepared,
         completed,
         state,
