@@ -348,7 +348,8 @@ class FijkException implements Exception {
           hashCode == other.hashCode;
 
   @override
-  int get hashCode => hashValues(code, message);
+  //int get hashCode => hashValues(code, message);
+  int get hashCode => Object.hash(code, message);
 
   @override
   String toString() {
